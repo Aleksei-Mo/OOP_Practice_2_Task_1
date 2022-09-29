@@ -47,7 +47,7 @@ public class Car {
     }
     public static void main(String[] args) {
         Car car = new Car();
-        Alarm_system alarm = new Alarm_system();
+        Alarm_system alarm = new Alligator();
         car.checkAll();
         alarm.deactivated();
         car.TransmOBDconnect();
